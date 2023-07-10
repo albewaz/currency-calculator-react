@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Form from "./Form";
+import Amount from "./Amount";
+import Currency from "./Currency";
+import Result from "./Result";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <form className="form js-form">
+      <fieldset className="form__fieldset">
+        <legend className="form__legend">Kalkulator Walut</legend>
+        <Amount />
+        <div>
+          <Currency />
+          <Result />
+        </div>
+      </fieldset>
+    </form>
   );
 }
 
 export default App;
+
