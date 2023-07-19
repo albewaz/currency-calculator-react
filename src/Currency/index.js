@@ -1,10 +1,14 @@
-import "./style.css";
 import React from "react";
+import "./style.css";
 
-const Currency = () => (
+const Currency = ({ handleCurrencyChange }) => (
   <label>
     NA:
-    <select className="form__currency" defaultValue="EUR">
+    <select
+      className="form__currency"
+      defaultValue="EUR"
+      onChange={handleCurrencyChange}
+    >
       <option>EUR</option>
       <option>USD</option>
     </select>

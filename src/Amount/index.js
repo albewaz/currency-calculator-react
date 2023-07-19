@@ -1,11 +1,10 @@
-import "./style.css";
 import React from "react";
+import "./style.css";
 
-const Amount = () => (
+const Amount = ({ handleInputChange }) => (
   <div>
     <p>
       <label>
-        {" "}
         Kwota w PLN
         <input
           type="number"
@@ -13,6 +12,7 @@ const Amount = () => (
           required
           className="form__amount"
           placeholder="$$$$$"
+          onChange={handleInputChange}
         />
       </label>
     </p>
