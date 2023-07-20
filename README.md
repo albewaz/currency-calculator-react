@@ -2,7 +2,7 @@
 ![Readme.md](https://github.com/albewaz/todo-list-react/blob/master/public/%25PUBLIC_URL%25/Readme.md.gif?raw=true)
 
 ## Demo
-https://albewaz.github.io/currency-calculator-react/
+https://albewaz.github.io/todo-list-react/
 
 ## Description
 
