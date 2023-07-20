@@ -5,7 +5,7 @@ const Amount = ({ handleInputChange }) => (
   <div>
     <p>
       <label>
-        Kwota w PLN
+        Kwota w PLN:
         <input
           type="number"
           min="0"
