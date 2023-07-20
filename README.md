@@ -1,8 +1,8 @@
-# Task list
-![Readme.md](https://github.com/albewaz/todo-list-react/blob/master/public/%25PUBLIC_URL%25/Readme.md.gif?raw=true)
+# Currency-Calculator-React
+![currency calculator](https://github.com/albewaz/kalkulator-walut/blob/main/images/Screen%20Recording%20-%207%20kwiecie%C5%84%202023.gif)
 
 ## Demo
-https://albewaz.github.io/todo-list-react/
+https://albewaz.github.io/currency-calculator-react/
 
 ## Description
 
