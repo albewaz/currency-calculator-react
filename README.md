@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Technologies
 The following technologies and tools were used in the project:
 
-- JavaScript
+- JSX
 - Node
 - React
 - HTML5
