@@ -1,12 +1,10 @@
 # Currency Calculator
 ![currency calculator](https://github.com/albewaz/kalkulator-walut/blob/main/images/Screen%20Recording%20-%207%20kwiecie%C5%84%202023.gif)
 
-## Demo
+## About
+This is a currency calculator that converts PLN to US dollars and EUR.
+
 https://albewaz.github.io/currency-calculator-react/
-
-## Description
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Technologies
 The following technologies and tools were used in the project:
