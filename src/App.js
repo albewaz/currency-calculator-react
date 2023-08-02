@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Amount from "./Amount";
 import Currency from "./Currency";
 import Result from "./Result";
+import Clock from "./Clock";
 
 function App() {
   const [amount, setAmount] = useState("");
@@ -20,6 +21,7 @@ function App() {
   return (
     <form className="form">
       <fieldset className="form__fieldset">
+        <Clock />
         <legend className="form__legend">Kalkulator Walut</legend>
         <Amount handleInputChange={handleInputChange} />
         <div>
