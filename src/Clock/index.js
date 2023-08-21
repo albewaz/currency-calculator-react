@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./style.css";
+import {Chrono} from "./styled";
 
 export const Clock = () => {
   const [date, setDate] = useState(new Date());
@@ -15,7 +15,7 @@ export const Clock = () => {
   }, []);
 
   return (
-    <div className="clock">
+    <Chrono>
       Dzisiaj jest{" "}
       {date.toLocaleString(undefined, {
         weekday: "long",
@@ -25,7 +25,7 @@ export const Clock = () => {
         day: "numeric",
         month: "long",
       })}
-    </div>
+    </Chrono>
   );
 };
 

@@ -1,11 +1,11 @@
-import "./style.css";
+import { Sum } from "./styled";
 import React from "react";
 
 const Result = ({ amount, selectedCurrency }) => {
   const exchangeRate = selectedCurrency === "EUR" ? 4.45 : 4;
   const convertedValue = amount / exchangeRate;
 
-  return <span className="form__result">{convertedValue.toFixed(2)}</span>;
+  return <Sum>{convertedValue.toFixed(2)}</Sum>;
 };
 
 export default Result;
